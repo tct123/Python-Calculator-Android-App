@@ -25,13 +25,13 @@ test_requires = [
 
 [tool.briefcase.app.calculator.macOS]
 requires = [
-    "toga-cocoa~=0.3.1",
+    "toga-cocoa~=0.4.8",
     "std-nslog~=1.0.0"
 ]
 
 [tool.briefcase.app.calculator.linux]
 requires = [
-    "toga-gtk~=0.3.1",
+    "toga-gtk~=0.4.8",
 ]
 
 [tool.briefcase.app.calculator.linux.system.debian]
@@ -126,24 +126,24 @@ flatpak_sdk = "org.gnome.Sdk"
 
 [tool.briefcase.app.calculator.windows]
 requires = [
-    "toga-winforms~=0.3.1",
+    "toga-winforms~=0.4.8",
 ]
 
 # Mobile deployments
 [tool.briefcase.app.calculator.iOS]
 requires = [
-    "toga-iOS~=0.3.1",
+    "toga-iOS~=0.4.8",
     "std-nslog~=1.0.0"
 ]
 
 [tool.briefcase.app.calculator.android]
 requires = [
-    "toga-android~=0.3.1"
+    "toga-android~=0.4.8"
 ]
 
 # Web deployments
 [tool.briefcase.app.calculator.web]
 requires = [
-    "toga-web~=0.3.1",
+    "toga-web~=0.4.8",
 ]
 style_framework = "Shoelace v2.3"
